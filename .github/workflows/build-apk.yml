@@ -28,7 +28,7 @@ jobs:
       run: chmod +x gradlew
       
     - name: Build Debug APK
-      run: ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx4g -XX:MaxMetaspaceSize=512m"
+      run: ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx6g -XX:MaxMetaspaceSize=1g" --parallel --max-workers=4 --no-daemon
       
     - name: Upload APK
       uses: actions/upload-artifact@v4
