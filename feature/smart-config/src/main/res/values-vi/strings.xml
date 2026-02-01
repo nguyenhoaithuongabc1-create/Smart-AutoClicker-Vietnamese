@@ -19,236 +19,236 @@
     <!-- Generic =================================================================================================== -->
     <!-- Those values are shared between several dialogs due to their generic meaning, such as name -->
 
-    <string name="generic_name">Tên</string>
-    <string name="generic_select_the_position">Chọn vị trí</string>
-    <string name="generic_config">Cấu hình</string>
-    <string name="generic_counters">Bộ đếm</string>
-    <string name="generic_modify">Sửa đổi</string>
+    <string name="generic_name">Name</string>
+    <string name="generic_select_the_position">Select the position</string>
+    <string name="generic_config">Config</string>
+    <string name="generic_counters">Counters</string>
+    <string name="generic_modify">Modify</string>
 
 
     <!-- Scenario Items ============================================================================================ -->
 
-    <string name="item_event_desc_enabled_children">Đã bật</string>
-    <string name="item_event_desc_disabled_children">Đã tắt</string>
+    <string name="item_event_desc_enabled_children">Enabled</string>
+    <string name="item_event_desc_disabled_children">Disabled</string>
 
     <string name="item_image_condition_desc_threshold">%1$d%%</string>
-    <string name="item_image_condition_desc_complete_threshold">Chenh lech: %1$d%%</string>
+    <string name="item_image_condition_desc_complete_threshold">Difference: %1$d%%</string>
 
-    <string name="item_image_condition_visible">Hiển thị</string>
-    <string name="item_image_condition_not_visible">Không hiển thị</string>
+    <string name="item_image_condition_visible">Visible</string>
+    <string name="item_image_condition_not_visible">Not visible</string>
 
-    <string name="item_counter_reached_title">Khi bộ đếm đạt</string>
-    <string name="item_counter_reached_desc">Xác minh giá trị của bộ đếm được sửa đổi bởi một Hành động</string>
+    <string name="item_counter_reached_title">On counter reached</string>
+    <string name="item_counter_reached_desc">Verify the value of a counter modified by an Action</string>
     <string name="item_counter_reached_details">%1$s %2$s %3$s</string>
 
-    <string name="item_timer_reached_title">Khi hẹn giờ đạt</string>
-    <string name="item_timer_reached_desc">Được hoàn thành sau thời gian xác định kể từ khi kích hoạt trigger này</string>
-    <string name="item_timer_reached_details">%1$s sau khi sự kiện được kích hoạt</string>
+    <string name="item_timer_reached_title">On timer reached</string>
+    <string name="item_timer_reached_desc">Fulfilled after a defined time from this trigger activation</string>
+    <string name="item_timer_reached_details">%1$s after event is enabled</string>
 
-    <string name="item_broadcast_received_title">Khi nhận Broadcast</string>
-    <string name="item_broadcast_received_desc">Được hoàn thành khi nhận được một Broadcast</string>
-    <string name="item_broadcast_received_details">%1$s đã nhận</string>
+    <string name="item_broadcast_received_title">On Broadcast received</string>
+    <string name="item_broadcast_received_desc">Fulfilled when a Broadcast is received</string>
+    <string name="item_broadcast_received_details">%1$s received</string>
 
-    <string name="item_copy_title">Sao chép</string>
-    <string name="item_copy_desc">Sao chép một Hành động hiện có từ bất kỳ Kịch bản nào</string>
+    <string name="item_copy_title">Copy</string>
+    <string name="item_copy_desc">Copy an existing Action from any Scenarios</string>
 
-    <string name="item_click_title">Nhấp</string>
-    <string name="item_click_desc">Nhấp vào một nơi trên màn hình</string>
-    <string name="item_click_details_on_condition">Trong %1$s trên %2$s</string>
-    <string name="item_click_details_at_position">Trong %1$s</string>
+    <string name="item_click_title">Click</string>
+    <string name="item_click_desc">Click somewhere on the screen</string>
+    <string name="item_click_details_on_condition">During %1$s on %2$s</string>
+    <string name="item_click_details_at_position">During %1$s</string>
 
-    <string name="item_swipe_title">Vuốt</string>
-    <string name="item_swipe_desc">Vuốt từ vị trí này sang vị trí khác trên màn hình</string>
-    <string name="item_swipe_details">Trong %1$s</string>
+    <string name="item_swipe_title">Swipe</string>
+    <string name="item_swipe_desc">Swipe from a position on the screen to another</string>
+    <string name="item_swipe_details">During %1$s</string>
 
-    <string name="item_pause_title">Chờ</string>
-    <string name="item_pause_desc">Tạm dừng việc thực thi phát hiện</string>
-    <string name="item_pause_details">Trong %1$s</string>
+    <string name="item_pause_title">Wait</string>
+    <string name="item_pause_desc">Pause the detection execution</string>
+    <string name="item_pause_details">During %1$s</string>
 
-    <string name="item_change_counter_title">Thay đổi bộ đếm</string>
-    <string name="item_change_counter_desc">Thay đổi giá trị để xác minh sau</string>
+    <string name="item_change_counter_title">Change counter</string>
+    <string name="item_change_counter_desc">Change a value to verify it later</string>
     <string name="item_change_counter_details">%1$s %2$s %3$s</string>
-    <string name="item_change_counter_details_error">Bộ đếm không hợp lệ</string>
+    <string name="item_change_counter_details_error">Counter is invalid</string>
 
-    <string name="item_toggle_event_title">Thay đổi trạng thái sự kiện</string>
-    <string name="item_toggle_event_desc">Thay đổi trạng thái kích hoạt của một sự kiện</string>
-    <string name="item_toggle_event_details_enable_all">Bật tất cả</string>
-    <string name="item_toggle_event_details_disable_all">Tắt tất cả</string>
-    <string name="item_toggle_event_details_invert_all">Đảo ngược tất cả</string>
-    <string name="item_toggle_event_details_manual">Thay đổi %1$d sự kiện</string>
-    <string name="item_toggle_event_details_error">Không tìm thấy sự kiện đích</string>
+    <string name="item_toggle_event_title">Change event state</string>
+    <string name="item_toggle_event_desc">Change the enabled state of an event</string>
+    <string name="item_toggle_event_details_enable_all">Enable all</string>
+    <string name="item_toggle_event_details_disable_all">Disable all</string>
+    <string name="item_toggle_event_details_invert_all">Invert all</string>
+    <string name="item_toggle_event_details_manual">Change %1$d events</string>
+    <string name="item_toggle_event_details_error">Target event not found</string>
 
     <string name="item_intent_title">Intent</string>
-    <string name="item_intent_desc">Tương tác với ứng dụng khác</string>
-    <string name="item_intent_details">Gửi %1$s</string>
-    <string name="item_intent_details_component_name">Gửi %1$s tới %2$s</string>
-    <string name="item_intent_details_start_activity">Khởi động %1$s</string>
+    <string name="item_intent_desc">Interact with another application</string>
+    <string name="item_intent_details">Send %1$s</string>
+    <string name="item_intent_details_component_name">Send %1$s to %2$s</string>
+    <string name="item_intent_details_start_activity">Start %1$s</string>
 
-    <string name="item_notification_title">Thông báo</string>
-    <string name="item_notification_desc">Gửi thông báo tới thiết bị của bạn</string>
-    <string name="item_notification_details_text">Gửi \"%1$s\"</string>
-    <string name="item_notification_details_counter">Gửi giá trị %1$s</string>
+    <string name="item_notification_title">Notification</string>
+    <string name="item_notification_desc">Send a notification to your device</string>
+    <string name="item_notification_details_text">Send \"%1$s\"</string>
+    <string name="item_notification_details_counter">Send %1$s value</string>
 
-    <string name="item_system_action_title">Hành động hệ thống</string>
-    <string name="item_system_action_desc">Sử dụng hành động hệ thống Android (quay lại, trang chủ hoặc ứng dụng gần đây)</string>
+    <string name="item_system_action_title">System action</string>
+    <string name="item_system_action_desc">Use an Android system action (back, home or recent apps)</string>
     <string name="item_system_action_details_text">%1$s</string>
 
-    <string name="item_set_text_title">Viết văn bản</string>
-    <string name="item_set_text_desc">Viết văn bản vào view hiện đang được focus</string>
+    <string name="item_set_text_title">Write text</string>
+    <string name="item_set_text_desc">Write a text in the currently focused view</string>
     <string name="item_set_text_details_text">%1$s</string>
-    <string name="item_set_text_details_text_empty">Xóa văn bản</string>
+    <string name="item_set_text_details_text_empty">Clear text</string>
 
     <!-- Dialog Copy =============================================================================================== -->
 
-    <string name="search_view_hint_event_copy">Tìm theo tên sự kiện</string>
-    <string name="search_view_hint_action_copy">Tìm theo tên hành động</string>
-    <string name="search_view_hint_condition_copy">Tìm theo tên điều kiện</string>
+    <string name="search_view_hint_event_copy">Search by event name</string>
+    <string name="search_view_hint_action_copy">Search by action name</string>
+    <string name="search_view_hint_condition_copy">Search by condition name</string>
 
-    <string name="list_header_copy_conditions_this">Điều kiện từ sự kiện này</string>
-    <string name="list_header_copy_conditions_all">Điều kiện từ tất cả sự kiện</string>
+    <string name="list_header_copy_conditions_this">Conditions from this event</string>
+    <string name="list_header_copy_conditions_all">Conditions from all events</string>
 
-    <string name="list_header_copy_action_this">Hành động từ sự kiện này</string>
-    <string name="list_header_copy_action_all">Hành động từ các sự kiện khác</string>
+    <string name="list_header_copy_action_this">Actions from this event</string>
+    <string name="list_header_copy_action_all">Actions from other events</string>
 
-    <string name="list_header_copy_event_this">Sự kiện từ kịch bản này</string>
-    <string name="list_header_copy_event_all">Sự kiện từ tất cả kịch bản</string>
+    <string name="list_header_copy_event_this">Events from this scenario</string>
+    <string name="list_header_copy_event_all">Events from all scenarios</string>
 
 
     <!-- Dialog Scenario =========================================================================================== -->
 
-    <string name="dialog_title_scenario_config">Kịch bản</string>
+    <string name="dialog_title_scenario_config">Scenario</string>
 
-    <string name="message_empty_screen_event_title">Không có sự kiện màn hình!</string>
-    <string name="message_empty_screen_event_desc">Một sự kiện màn hình chứa một tập hợp các hành động được thực thi khi một điều kiện cụ thể được phát hiện trên màn hình.\nBạn cần ít nhất một sự kiện màn hình hoặc trigger trong kịch bản của mình để thực thi nó.</string>
-    <string name="message_empty_trigger_event_list_title">Không có sự kiện trigger!</string>
-    <string name="message_empty_trigger_event_list_desc">Một sự kiện trigger chứa một tập hợp các hành động được thực thi khi một tập hợp các điều kiện tùy chỉnh được đáp ứng.\nBạn cần ít nhất một sự kiện màn hình hoặc trigger trong kịch bản của mình để thực thi nó.</string>
+    <string name="message_empty_screen_event_title">No screen events !</string>
+    <string name="message_empty_screen_event_desc">A screen event contains a set of actions executed when a specific condition is detected on the screen.\nYou need at least one screen or trigger event in your scenario to execute it.</string>
+    <string name="message_empty_trigger_event_list_title">No trigger events !</string>
+    <string name="message_empty_trigger_event_list_desc">A trigger event contains a set of actions executed when a set of custom conditions are met.\nYou need at least one screen or trigger event in your scenario to execute it.</string>
 
-    <string name="menu_item_title_image_events">Màn hình</string>
+    <string name="menu_item_title_image_events">Screen</string>
     <string name="menu_item_title_trigger_events">Triggers</string>
-    <string name="menu_item_title_more">Thêm</string>
+    <string name="menu_item_title_more">More</string>
 
-    <string name="field_scenario_keep_screen_on_title">Giữ màn hình sáng</string>
-    <string name="field_scenario_keep_screen_on_enabled">Giữ màn hình thiết bị sáng trong khi phát hiện.</string>
-    <string name="field_scenario_keep_screen_on_disabled">Sử dụng hành vi màn hình bình thường của thiết bị.</string>
+    <string name="field_scenario_keep_screen_on_title">Keep screen on</string>
+    <string name="field_scenario_keep_screen_on_enabled">Keep the device screen on while detecting.</string>
+    <string name="field_scenario_keep_screen_on_disabled">Use the normal device screen behaviour.</string>
 
-    <string name="field_scenario_quality_title">Độ phân giải phát hiện</string>
-    <string name="field_scenario_quality_description">Để đạt được phát hiện nhanh hơn, Klick\'r đang thu nhỏ hình ảnh trước khi phát hiện.\n\nNếu bạn tăng độ phân giải, việc phát hiện sẽ chậm hơn nhưng chính xác hơn. Nếu bạn giảm độ phân giải, việc phát hiện sẽ nhanh hơn nhưng kém chính xác hơn. Tìm tỷ lệ tốt giữa độ phân giải phát hiện và ngưỡng điều kiện để có được kết quả tốt nhất cho kịch bản của bạn!</string>
+    <string name="field_scenario_quality_title">Detection resolution</string>
+    <string name="field_scenario_quality_description">To achieve faster detection, Klick\'r is downscaling the images before detecting.\n\nIf you increase the resolution, the detection will be slower, but more accurate. If you decrease the resolution, the detection will be faster, but less accurate. Find the good ratio between the detection resolution and the conditions thresholds to get the best of your scenarios!</string>
     <string name="field_scenario_quality_resolution" translatable="false">%1$d x %2$d</string>
 
 
-    <string name="field_show_debug_view_title">Hiển thị chế độ debug</string>
-    <string name="item_title_debug_generate_report">Tạo báo cáo</string>
+    <string name="field_show_debug_view_title">Show debug view</string>
+    <string name="item_title_debug_generate_report">Generate a report</string>
 
-    <string name="field_show_debug_report_title">Hiển thị báo cáo</string>
-    <string name="field_show_debug_report_desc_available">Báo cáo debug có sẵn</string>
-    <string name="field_show_debug_report_desc_not_available">Không có báo cáo debug</string>
+    <string name="field_show_debug_report_title">Show report</string>
+    <string name="field_show_debug_report_desc_available">Debug report is available</string>
+    <string name="field_show_debug_report_desc_not_available">No debug report available</string>
 
-    <string name="field_tutorial_title">Hướng dẫn</string>
-    <string name="field_tutorial_desc">Học cách sử dụng Klick\'r</string>
+    <string name="field_tutorial_title">Tutorial</string>
+    <string name="field_tutorial_desc">Learn how to use Klick\'r</string>
 
 
     <!-- Dialog Event ============================================================================================== -->
 
-    <string name="dialog_title_image_event">Sự kiện màn hình</string>
+    <string name="dialog_title_image_event">Screen Event</string>
     <string name="dialog_title_trigger_event">Trigger</string>
-    <string name="dialog_title_action_type">Loại hành động</string>
-    <string name="dialog_title_trigger_condition_type">Loại trigger</string>
+    <string name="dialog_title_action_type">Action type</string>
+    <string name="dialog_title_trigger_condition_type">Trigger type</string>
 
-    <string name="field_condition_selector_desc">%1$d điều kiện</string>
-    <string name="message_empty_screen_condition_list_title">Không có điều kiện màn hình!</string>
-    <string name="message_empty_screen_condition_list_desc">Một điều kiện màn hình là một phần của ảnh chụp màn hình sẽ được tìm kiếm trên mỗi khung hình hiển thị bởi màn hình điện thoại của bạn.</string>
-    <string name="message_empty_trigger_condition_list_title">Không có điều kiện!</string>
-    <string name="message_empty_trigger_condition_list_desc">Một điều kiện là tiêu chí tùy chỉnh để khởi động một hành động.</string>
-    <string name="message_empty_action_list_title">Không có hành động!</string>
-    <string name="message_empty_action_list_desc">Một hành động là tương tác (nhấp, vuốt...) với điện thoại của bạn được kích hoạt khi các điều kiện đã tạo được hoàn thành.</string>
+    <string name="field_condition_selector_desc">%1$d conditions</string>
+    <string name="message_empty_screen_condition_list_title">No screen conditions !</string>
+    <string name="message_empty_screen_condition_list_desc">A screen condition is a part of a screenshot that will be searched on each frames displayed by your phone screen.</string>
+    <string name="message_empty_trigger_condition_list_title">No conditions !</string>
+    <string name="message_empty_trigger_condition_list_desc">A condition is a custom criteria for starting an action.</string>
+    <string name="message_empty_action_list_title">No actions !</string>
+    <string name="message_empty_action_list_desc">An action is an interaction (click, swipe…) with your phone triggered when the created conditions are fulfilled.</string>
 
-    <string name="menu_item_title_conditions">Điều kiện</string>
-    <string name="menu_item_title_actions">Hành động</string>
+    <string name="menu_item_title_conditions">Conditions</string>
+    <string name="menu_item_title_actions">Actions</string>
 
-    <string name="field_event_state_title">Trạng thái</string>
-    <string name="field_event_state_desc_enabled">Sự kiện này sẽ được diễn giải bình thường khi phát kịch bản</string>
-    <string name="field_event_state_desc_disabled">Sự kiện này cần được kích hoạt bởi một hành động để được diễn giải khi phát kịch bản</string>
+    <string name="field_event_state_title">State</string>
+    <string name="field_event_state_desc_enabled">This event will be interpreted normally when playing the scenario</string>
+    <string name="field_event_state_desc_disabled">This event needs to be enabled by an action to be interpreted when playing the scenario</string>
 
-    <string name="field_event_keep_detecting_title">Tiếp tục thực thi</string>
-    <string name="field_event_keep_detecting_desc_enabled">Khi Sự kiện này được kích hoạt, tiếp tục thực thi từ sự kiện tiếp theo trong danh sách</string>
-    <string name="field_event_keep_detecting_desc_disabled">Khi Sự kiện này được kích hoạt, khởi động lại thực thi từ sự kiện đầu tiên trong danh sách</string>
+    <string name="field_event_keep_detecting_title">Keep executing</string>
+    <string name="field_event_keep_detecting_desc_enabled">When this Event is triggered, continue the execution from the next event on the list</string>
+    <string name="field_event_keep_detecting_desc_disabled">When this Event is triggered, restart the execution from the first event on the list</string>
 
-    <string name="field_operator_title">Toán tử</string>
-    <string name="field_operator_desc_or">Chỉ cần một điều kiện được hoàn thành để kích hoạt các hành động</string>
-    <string name="field_operator_desc_and">Tất cả điều kiện phải được hoàn thành để kích hoạt các hành động</string>
+    <string name="field_operator_title">Operator</string>
+    <string name="field_operator_desc_or">Only one condition must be fulfilled to trigger the actions</string>
+    <string name="field_operator_desc_and">All conditions must be fulfilled to trigger the actions</string>
 
 
     <!-- Brief overlays ============================================================================================ -->
 
-    <string name="brief_empty_actions">Không có Hành động. Bạn cần ít nhất một Hành động để tạo Sự kiện hợp lệ</string>
-    <string name="brief_empty_image_conditions">Không có Điều kiện màn hình. Bạn cần ít nhất một Điều kiện để tạo Sự kiện hợp lệ</string>
+    <string name="brief_empty_actions">No Actions. You need at least one Action to create a valid Event</string>
+    <string name="brief_empty_image_conditions">No Screen Condition. You need at least one Condition to create a valid Event</string>
 
 
     <!-- Dialog Condition Image ==================================================================================== -->
 
-    <string name="dialog_title_condition_config">Điều kiện</string>
+    <string name="dialog_title_condition_config">Condition</string>
 
-    <string name="field_condition_visibility_title">Hiển thị</string>
-    <string name="field_condition_visibility_desc_present">Điều kiện phải được phát hiện</string>
-    <string name="field_condition_visibility_desc_absent">Điều kiện không được phát hiện</string>
+    <string name="field_condition_visibility_title">Visibility</string>
+    <string name="field_condition_visibility_desc_present">The condition must be detected</string>
+    <string name="field_condition_visibility_desc_absent">The condition must not be detected</string>
 
-    <string name="field_detection_type_title">Loại phát hiện</string>
-    <string name="field_detection_type_desc_exact">Phát hiện tại vị trí đã chụp</string>
-    <string name="field_detection_type_desc_screen">Phát hiện trên toàn màn hình</string>
-    <string name="field_detection_type_desc_area">Phát hiện trên khu vực đã chọn</string>
+    <string name="field_detection_type_title">Detection type</string>
+    <string name="field_detection_type_desc_exact">Detection at the captured position</string>
+    <string name="field_detection_type_desc_screen">Detection on the whole screen</string>
+    <string name="field_detection_type_desc_area">Detection on a selected area</string>
 
-    <string name="field_select_detection_area_title">Khu vực phát hiện</string>
-    <string name="field_select_detection_area_desc">Trong [%1$d, %2$d, %3$d, %4$d]</string>
+    <string name="field_select_detection_area_title">Detection Area</string>
+    <string name="field_select_detection_area_desc">In [%1$d, %2$d, %3$d, %4$d]</string>
 
-    <string name="field_title_condition_threshold">Chênh lệch cho phép</string>
+    <string name="field_title_condition_threshold">Tolerated difference</string>
 
 
     <!-- Dialog Condition Counter Reached ========================================================================== -->
 
-    <string name="dialog_title_counter_reached">Giá trị bộ đếm</string>
+    <string name="dialog_title_counter_reached">Counter value</string>
 
-    <string name="field_counter_name_label">Tên bộ đếm</string>
+    <string name="field_counter_name_label">Counter name</string>
 
-    <string name="field_counter_comparison_value_label">Giá trị</string>
+    <string name="field_counter_comparison_value_label">Value</string>
 
-    <string name="dropdown_comparison_operator_label">Toán tử</string>
+    <string name="dropdown_comparison_operator_label">Operator</string>
 
     <!-- Dialog Condition Timer Reached ============================================================================ -->
 
-    <string name="dialog_title_timer_reached">Hẹn giờ đã đạt</string>
+    <string name="dialog_title_timer_reached">Timer reached</string>
 
-    <string name="input_field_label_timer_duration_no_unit">Sau</string>
+    <string name="input_field_label_timer_duration_no_unit">After</string>
 
-    <string name="field_timer_restart_title">Khởi động lại khi đạt</string>
-    <string name="field_timer_restart_desc_on">Khi đạt, hẹn giờ sẽ khởi động lại, cho phép điều kiện này được hoàn thành lại</string>
-    <string name="field_timer_restart_desc_off">Khi đạt, hẹn giờ sẽ không khởi động lại, có nghĩa là điều kiện này chỉ có thể được hoàn thành một lần</string>
+    <string name="field_timer_restart_title">Restart when reached</string>
+    <string name="field_timer_restart_desc_on">Once reached, the timer will restart, allowing this condition to be fulfilled again</string>
+    <string name="field_timer_restart_desc_off">Once reached, the timer will not be restarted, meaning that this condition can be fulfilled only once</string>
 
 
     <!-- Dialog Condition broadcast received ======================================================================= -->
 
-    <string name="dialog_title_broadcast_received">Broadcast đã nhận</string>
+    <string name="dialog_title_broadcast_received">Broadcast received</string>
 
 
     <!-- Dialog Action Click ======================================================================================= -->
 
-    <string name="dialog_title_click">Nhấp</string>
-    <string name="dialog_title_condition_selection">Chọn điều kiện</string>
+    <string name="dialog_title_click">Click</string>
+    <string name="dialog_title_condition_selection">Select a condition</string>
 
-    <string name="field_click_type_title">Nhấp vào</string>
-    <string name="field_click_type_desc_on_condition">Nhấp vào điều kiện đã phát hiện</string>
-    <string name="field_click_type_desc_on_position">Nhấp vào vị trí đã chọn</string>
+    <string name="field_click_type_title">Click on</string>
+    <string name="field_click_type_desc_on_condition">Click on the detected condition</string>
+    <string name="field_click_type_desc_on_position">Click on the selected position</string>
 
-    <string name="field_condition_selection_title_and_operator">Nhấp vào một điều kiện</string>
+    <string name="field_condition_selection_title_and_operator">Click on a condition</string>
     <string name="field_condition_selection_desc_and_operator">%1$s</string>
-    <string name="field_condition_selection_desc_and_operator_not_found">Không có điều kiện được chọn</string>
+    <string name="field_condition_selection_desc_and_operator_not_found">No condition selected</string>
 
-    <string name="field_condition_selection_title_or_operator">Nhấp vào điều kiện đầu tiên được phát hiện</string>
-    <string name="field_condition_selection_desc_or_operator">Sự kiện được đặt thành \"Một điều kiện\", bạn không thể chọn một điều kiện cụ thể</string>
+    <string name="field_condition_selection_title_or_operator">Click on the first detected condition</string>
+    <string name="field_condition_selection_desc_or_operator">Event is set to "One Condition", you can\'t select a specific one</string>
 
-    <string name="field_click_position_desc">Nhấp vào %1$d, %2$d</string>
+    <string name="field_click_position_desc">Click on %1$d, %2$d</string>
 
-    <string name="field_click_offset_title">Độ lệch nhấp</string>
-    <string name="field_click_offset_desc_none">Không</string>
+    <string name="field_click_offset_title">Click offset</string>
+    <string name="field_click_offset_desc_none">None</string>
     <string name="field_click_offset_desc" translatable="false">X=%1$d Y=%2$d</string>
     <string name="field_click_offset_x" translatable="false">X</string>
     <string name="field_click_offset_y" translatable="false">Y</string>
@@ -256,15 +256,15 @@
 
     <!-- Dialog Action Swipe ======================================================================================= -->
 
-    <string name="dialog_title_swipe">Vuốt</string>
+    <string name="dialog_title_swipe">Swipe</string>
 
-    <string name="field_swipe_positions_title">Vị trí vuốt</string>
-    <string name="field_swipe_positions_desc">Vuốt từ %1$d, %2$d đến %3$d, %4$d</string>
+    <string name="field_swipe_positions_title">Swipe positions</string>
+    <string name="field_swipe_positions_desc">Swipe from %1$d, %2$d to %3$d, %4$d</string>
 
 
     <!-- Dialog Action Pause ======================================================================================= -->
 
-    <string name="dialog_title_pause">Chờ</string>
+    <string name="dialog_title_pause">Wait</string>
 
 
     <!-- Dialog Action Intent ====================================================================================== -->
@@ -273,15 +273,15 @@
     <string name="dialog_title_intent_flags" translatable="false">Flags</string>
     <string name="dialog_title_intent_actions" translatable="false">Intent Actions</string>
     <string name="dialog_title_intent_component_name" translatable="false">Component name</string>
-    <string name="dialog_title_application_selection">Chọn ứng dụng</string>
+    <string name="dialog_title_application_selection">Select an application</string>
 
-    <string name="menu_item_title_advanced">Nâng cao</string>
-    <string name="menu_item_title_simple">Đơn giản</string>
+    <string name="menu_item_title_advanced">Advanced</string>
+    <string name="menu_item_title_simple">Simple</string>
 
-    <string name="field_application_selection_title">Chọn ứng dụng</string>
-    <string name="field_application_selection_desc">Khởi động ứng dụng khi hành động này được thực thi</string>
+    <string name="field_application_selection_title">Select an application</string>
+    <string name="field_application_selection_desc">Start an application when this action is executed</string>
 
-    <string name="dropdown_intent_sending_type_label">Loại</string>
+    <string name="dropdown_intent_sending_type_label">Type</string>
     <string name="dropdown_intent_sending_type_item_activity" translatable="false">Start Activity</string>
     <string name="dropdown_intent_sending_type_item_broadcast" translatable="false">Send Broadcast</string>
 
@@ -298,9 +298,9 @@
     <string name="dialog_intent_extra_title" translatable="false">Extra</string>
 
     <string name="field_intent_extra_key_label">Key</string>
-    <string name="field_intent_extra_value_title">Giá trị</string>
+    <string name="field_intent_extra_value_title">Value</string>
 
-    <string name="dropdown_intent_extra_type_title">Loại giá trị</string>
+    <string name="dropdown_intent_extra_type_title">Value type</string>
     <string name="dropdown_intent_extra_type_item_boolean" translatable="false">Boolean</string>
     <string name="dropdown_intent_extra_type_item_byte" translatable="false">Byte</string>
     <string name="dropdown_intent_extra_type_item_char" translatable="false">Char</string>
@@ -316,14 +316,14 @@
 
     <!-- Dialog Action Change Counter ============================================================================== -->
 
-    <string name="dialog_title_change_counter">Thay đổi bộ đếm</string>
+    <string name="dialog_title_change_counter">Change counter</string>
 
-    <string name="message_empty_counter_name_list_title">Không có bộ đếm được định nghĩa</string>
-    <string name="message_empty_counter_name_list_desc">Bộ đếm được tạo bằng Hành động Thay đổi Bộ đếm hoặc Điều kiện Bộ đếm Đã đạt</string>
+    <string name="message_empty_counter_name_list_title">No counter defined</string>
+    <string name="message_empty_counter_name_list_desc">Counters are created with a Change Counter Action or a Counter Reached Condition</string>
 
-    <string name="field_counter_operation_value_label">Giá trị</string>
+    <string name="field_counter_operation_value_label">Value</string>
 
-    <string name="dropdown_counter_operation_label">Phép toán</string>
+    <string name="dropdown_counter_operation_label">Operation</string>
     <string name="dropdown_counter_operation_item_add" translatable="false">+</string>
     <string name="dropdown_counter_operation_item_set" translatable="false">=</string>
     <string name="dropdown_counter_operation_item_minus" translatable="false">-</string>
@@ -331,92 +331,92 @@
 
     <!-- Dialogs Action ToggleEvent ================================================================================ -->
 
-    <string name="dialog_title_toggle_event">Trạng thái sự kiện</string>
-    <string name="dialog_title_events_toggle">Thay đổi trạng thái sự kiện</string>
+    <string name="dialog_title_toggle_event">Event state</string>
+    <string name="dialog_title_events_toggle">Events toggles</string>
 
-    <string name="list_header_image_events">Sự kiện màn hình</string>
-    <string name="list_header_trigger_events">Sự kiện Trigger</string>
+    <string name="list_header_image_events">Screen Events</string>
+    <string name="list_header_trigger_events">Trigger Events</string>
 
-    <string name="field_change_all_title">Thay đổi tất cả</string>
-    <string name="field_change_all_desc_manual">Định nghĩa các sự kiện cần thay đổi theo cách thủ công</string>
-    <string name="field_change_all_desc_enable_all">Bật tất cả sự kiện trong kịch bản này</string>
-    <string name="field_change_all_desc_invert_all">Đảo ngược trạng thái của tất cả sự kiện trong kịch bản này</string>
-    <string name="field_change_all_desc_disable_all">Tắt tất cả sự kiện trong kịch bản này. Khi tất cả sự kiện bị tắt, kịch bản sẽ tự động dừng.</string>
+    <string name="field_change_all_title">Change all</string>
+    <string name="field_change_all_desc_manual">Define the events to change manually</string>
+    <string name="field_change_all_desc_enable_all">Enable all events in this scenario</string>
+    <string name="field_change_all_desc_invert_all">Invert the state of all events in this scenario</string>
+    <string name="field_change_all_desc_disable_all">Disable all events in this scenario. When all events are disabled, the scenario is stopped automatically.</string>
 
-    <string name="field_select_toggle_events_title">%1$d thay đổi</string>
-    <string name="field_select_toggle_events_title_empty">Không có thay đổi</string>
-    <string name="field_select_toggle_events_desc_empty">Chọn ít nhất một sự kiện để thay đổi trạng thái</string>
+    <string name="field_select_toggle_events_title">%1$d changes</string>
+    <string name="field_select_toggle_events_title_empty">No changes</string>
+    <string name="field_select_toggle_events_desc_empty">Select at least one event to change to state of</string>
 
 
     <!-- Dialogs Notification ===================================================================================== -->
 
-    <string name="dialog_title_notification">Thông báo</string>
+    <string name="dialog_title_notification">Notification</string>
 
-    <string name="field_notification_title_label">Tiêu đề</string>
+    <string name="field_notification_title_label">Title</string>
 
-    <string name="field_notification_message_title">Tin nhắn</string>
-    <string name="field_dropdown_notification_message_type_title">Loại</string>
-    <string name="field_dropdown_item_notification_message_type_text">Văn bản</string>
-    <string name="field_dropdown_item_notification_message_type_counter">Giá trị bộ đếm</string>
-    <string name="field_notification_message_text_label">Nội dung</string>
-    <string name="field_notification_message_counter_label">Tên bộ đếm</string>
+    <string name="field_notification_message_title">Message</string>
+    <string name="field_dropdown_notification_message_type_title">Type</string>
+    <string name="field_dropdown_item_notification_message_type_text">Text</string>
+    <string name="field_dropdown_item_notification_message_type_counter">Counter value</string>
+    <string name="field_notification_message_text_label">Content</string>
+    <string name="field_notification_message_counter_label">Counter name</string>
 
-    <string name="field_dropdown_notification_importance_title">Mức độ quan trọng</string>
-    <string name="field_dropdown_item_notification_importance_type_low">Thấp</string>
-    <string name="field_dropdown_item_notification_importance_type_low_desc">Không phát âm thanh.</string>
-    <string name="field_dropdown_item_notification_importance_type_default">Bình thường</string>
-    <string name="field_dropdown_item_notification_importance_type_default_desc">Phát âm thanh.</string>
-    <string name="field_dropdown_item_notification_importance_type_high">Cao</string>
-    <string name="field_dropdown_item_notification_importance_type_high_desc">Phát âm thanh và hiển thị dạng đầu màn hình.</string>
+    <string name="field_dropdown_notification_importance_title">Importance</string>
+    <string name="field_dropdown_item_notification_importance_type_low">Low</string>
+    <string name="field_dropdown_item_notification_importance_type_low_desc">Makes no sound.</string>
+    <string name="field_dropdown_item_notification_importance_type_default">Normal</string>
+    <string name="field_dropdown_item_notification_importance_type_default_desc">Makes a sound.</string>
+    <string name="field_dropdown_item_notification_importance_type_high">High</string>
+    <string name="field_dropdown_item_notification_importance_type_high_desc">Makes a sound and appears as a heads-up.</string>
 
-    <string name="button_notification_config">Mở cài đặt</string>
-    <string name="message_notification_config">Hành vi thông báo phụ thuộc vào hệ điều hành thiết bị của bạn. Bạn có thể cấu hình cách xử lý thông báo trong cài đặt thiết bị.</string>
+    <string name="button_notification_config">Open settings</string>
+    <string name="message_notification_config">Notification behaviour depends on your device OS. You can configure how notifications are handled in you device settings.</string>
 
 
     <!-- Dialogs Action System ===================================================================================== -->
 
-    <string name="dialog_title_system_action">Hành động hệ thống</string>
+    <string name="dialog_title_system_action">System action</string>
 
-    <string name="field_dropdown_system_action_type_title">Loại</string>
-    <string name="field_dropdown_system_action_type_back">Quay lại</string>
-    <string name="field_dropdown_system_action_type_home">Trang chủ</string>
-    <string name="field_dropdown_system_action_type_recent_apps">Ứng dụng gần đây</string>
+    <string name="field_dropdown_system_action_type_title">Type</string>
+    <string name="field_dropdown_system_action_type_back">Back</string>
+    <string name="field_dropdown_system_action_type_home">Home</string>
+    <string name="field_dropdown_system_action_type_recent_apps">Recent apps</string>
 
 
     <!-- Dialogs Action WriteText ================================================================================== -->
 
-    <string name="dialog_title_set_text_action">Viết văn bản</string>
+    <string name="dialog_title_set_text_action">Write text</string>
 
-    <string name="field_input_set_text_text_to_write_title">Văn bản</string>
-    <string name="field_set_text_validate_title">Xác thực văn bản</string>
-    <string name="field_set_text_validate_desc_enabled">Nhấn \"Enter\" sau khi viết văn bản</string>
-    <string name="field_set_text_validate_desc_disabled">Chỉ viết văn bản</string>
-    <string name="message_set_text_focus">Để viết văn bản vào vị trí mong muốn, bạn cần focus vào trường văn bản trước
-        bằng cách nhấp vào nó.\n\nLưu ý rằng tùy thuộc vào ứng dụng, bạn có thể cần đợi một chút sau
-        khi nhấp, nếu không văn bản sẽ được viết quá sớm.\n\nĐiều này cũng có thể không hoạt động với các ứng dụng
-        không hỗ trợ viết văn bản tiêu chuẩn, vì vậy hãy luôn kiểm tra hành động của bạn trước!</string>
+    <string name="field_input_set_text_text_to_write_title">Text</string>
+    <string name="field_set_text_validate_title">Validate text</string>
+    <string name="field_set_text_validate_desc_enabled">Press "Enter" after writing the text</string>
+    <string name="field_set_text_validate_desc_disabled">Just write the text</string>
+    <string name="message_set_text_focus">To write the text in the wanted place, you need to focus the text field first
+        by clicking on it.\n\nPlease note that depending on the application, you might need to wait a little bit after
+        clicking, or the text will be written too early.\n\nThis might also not be working applications that
+        don\'t support standard text writing, so always test your action first!</string>
 
 
     <!-- Dialogs warning/error ===================================================================================== -->
 
-    <string name="warning_dialog_message_toggle_action_from_another_scenario">Sự kiện này có một hoặc nhiều hành động thay đổi trạng thái sự kiện tham chiếu đến sự kiện từ kịch bản khác.\nBạn sẽ phải cập nhật các sự kiện đích của chúng trước khi lưu kịch bản.</string>
-    <string name="warning_dialog_message_event_delete_associated_action">Sự kiện này có một hoặc nhiều hành động tham chiếu đến nó. Xóa sự kiện này cũng sẽ xóa các hành động liên quan.\nBạn có chắc chắn?</string>
-    <string name="warning_dialog_message_condition_delete_associated_action">Điều kiện này có một hoặc nhiều hành động tham chiếu đến nó. Xóa điều kiện này cũng sẽ xóa các hành động liên quan.\nBạn có chắc chắn?</string>
-    <string name="warning_dialog_message_close_without_saving">Bạn có những thay đổi chưa được lưu, bạn có muốn loại bỏ chúng không?</string>
+    <string name="warning_dialog_message_toggle_action_from_another_scenario">This event have one or more toggle event actions referencing an event from another scenario.\nYou will have to update their target events before saving your scenario.</string>
+    <string name="warning_dialog_message_event_delete_associated_action">This event have one or more actions referencing it. Deleting this event will delete the associated actions as well.\nAre you sure ?</string>
+    <string name="warning_dialog_message_condition_delete_associated_action">This condition have one or more actions referencing it. Deleting this condition will delete the associated actions as well.\nAre you sure ?</string>
+    <string name="warning_dialog_message_close_without_saving">You have unsaved modifications, do you want to discard them?</string>
 
 
-    <string name="error_dialog_message_scenario_saving">Kịch bản của bạn không thể được lưu do lỗi nội bộ.\nBạn có muốn sửa đổi nó hay hủy tất cả thay đổi?</string>
-    <string name="error_dialog_message_error_native_lib">Klick\'r được cài đặt không đúng cách và không thể bắt đầu phát hiện.\n\nNếu bạn đã cài đặt từ cửa hàng ứng dụng hợp pháp, vui lòng liên hệ với chúng tôi trên GitHub, vì điều này sẽ giúp chúng tôi khắc phục sự cố.</string>
+    <string name="error_dialog_message_scenario_saving">Your scenario can\'t be saved due to an internal error.\nDo you want to modify it or cancel all your modifications ?</string>
+    <string name="error_dialog_message_error_native_lib">Klick\'r is incorrectly installed and can\'t start the detection.\n\nIf you have installed it from a legitimate application store, please contact us on GitHub, as it will help us fix this issue.</string>
 
 
     <!-- Content description ======================================================================================= -->
     <!--They are use as accessibility texts for visually impaired people. They will not be displayed but spoken. -->
 
-    <string name="content_desc_event_state">Trạng thái của sự kiện</string>
-    <string name="content_desc_conditions_count">Số lượng điều kiện trong sự kiện này</string>
-    <string name="content_desc_actions_count">Số lượng hành động trong sự kiện này</string>
-    <string name="content_desc_image_condition">Hình ảnh cần được phát hiện</string>
-    <string name="content_desc_open_event_list">Mở danh sách sự kiện</string>
-    <string name="content_desc_application_icon">Biểu tượng của ứng dụng cần khởi động.</string>
+    <string name="content_desc_event_state">The state of the event</string>
+    <string name="content_desc_conditions_count">The number of conditions in this event</string>
+    <string name="content_desc_actions_count">The number of actions in this event</string>
+    <string name="content_desc_image_condition">The image to be detected</string>
+    <string name="content_desc_open_event_list">Open the event list</string>
+    <string name="content_desc_application_icon">The icon of the application to start.</string>
 
 </resources>
