@@ -27,8 +27,8 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
       
-    - name: Build Debug APK
-      run: ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx6g -XX:MaxMetaspaceSize=1g" --parallel --max-workers=4 --no-daemon
+    - name: Build PlayStore Debug APK
+      run: ./gradlew assemblePlayStoreDebug -Dorg.gradle.jvmargs="-Xmx6g -XX:MaxMetaspaceSize=1g" --no-daemon
       
     - name: Upload APK
       uses: actions/upload-artifact@v4
