@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2023 Kevin Buzeau
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="activity_tutorial_name">Hướng dẫn</string>
+
+    <string name="message_score">Người chơi: %1$d</string>
+    <string name="message_high_score">Tốt nhất: %1$d</string>
+    <string name="message_time_left">Thời gian còn lại: %1$d</string>
+
+    <string name="button_text_tutorial_start_game">Bắt đầu trò chơi</string>
+    <string name="button_text_tutorial_next">Tiếp theo</string>
+
+    <!--
+      - Tutorials definition
+      - Each tutorial must contains the following strings:
+      -
+      - * "item_title_tutorial_n": The name of the tutorial n in the tutorial list. Must be short.
+      - * "item_desc_tutorial_n": The secondary text of the tutorial n in the tutorial list. Can contains more details,
+      - is displayed on two lines if needed.
+      - * "message_tutorial_n_game_instructions": The instructions for the game associated with the tutorial n.
+      - * The following strings for each steps:
+      -   * message_tutorial_n_step_i": The text displayed in the tutorial step i to guide the user during tutorial n.
+      -   * message_tutorial_n_step_secondary_i": The text displayed below the tutorial step i image, if any, during
+      - the tutorial n. This string is not mandatory for each step.
+      -
+      - Note: not all steps are displaying text, this is why there is not necessarily all step indexes defined here.
+    -->
+
+    <!-- One still target tutorial -->
+    <string name="item_title_tutorial_1">Nhấn vào mục tiêu tĩnh</string>
+    <string name="item_desc_tutorial_1">Học cách tạo sự kiện đầu tiên để nhấp vào mục tiêu tĩnh</string>
+    <string name="message_tutorial_1_game_instructions">Nhấp vào nút màu xanh nhanh nhất có thể</string>
+
+    <string name="message_tutorial_1_step_1">Chào mừng đến với hướng dẫn đầu tiên!\n\nỞ đây, bạn sẽ cố gắng vượt qua điểm cao nhất của một trò chơi với sự trợ giúp của Klick\'r.\n\nĐầu tiên, bắt đầu trò chơi và thử thắng bằng chính bản thân bạn.</string>
+
+    <string name="message_tutorial_1_step_3">Khó phải không?\nHãy sử dụng Klick\'r để vượt qua nó!\n\nNhấp vào biểu tượng cấu hình kịch bản để bắt đầu chỉnh sửa kịch bản mới của bạn.</string>
+
+    <string name="message_tutorial_1_step_4">Kịch bản là cấu trúc gốc của tự động hóa Klick\'r.\n\nNó chứa các cài đặt phát hiện chung và danh sách các Sự kiện mô tả những gì sẽ được thực hiện khi chạy Kịch bản của bạn.\n\nNhấp vào nút tạo sự kiện để tạo sự kiện đầu tiên.</string>
+
+    <string name="message_tutorial_1_step_5">Một Sự kiện mô tả Hành động nào (nhấp, vuốt...) sẽ được thực hiện khi một số Điều kiện nhất định được đáp ứng.\n\nBạn phải tạo ít nhất một Điều kiện và một Hành động để tạo Sự kiện hợp lệ và sử dụng nó trong kịch bản của mình.\n\nNhấp vào trường Điều kiện để hiển thị danh sách Điều kiện.</string>
+
+    <string name="message_tutorial_1_step_6">Một Điều kiện là một phần của ảnh chụp màn hình sẽ được so sánh với mỗi khung hình màn hình trên thiết bị của bạn.\n\nĐể đánh bại trò chơi, chúng ta muốn nhấp vào nhân vật màu xanh khi nó hiển thị, vì vậy chúng ta cần một Điều kiện được hoàn thành khi nhân vật xuất hiện trên màn hình thiết bị của bạn.\n\nNhấp vào nút tạo Điều kiện để tạo Điều kiện đầu tiên.</string>
+
+    <string name="message_tutorial_1_step_7">Bước đầu tiên của việc tạo Điều kiện là chụp ảnh màn hình cho nó.\n\nVì chúng ta muốn nhấp khi nhân vật màu xanh hiển thị, ảnh chụp màn hình phải chứa nó. Bắt đầu trò chơi lại để hiển thị nó, sau đó chụp ảnh màn hình.</string>
+    <string name="message_tutorial_1_step_secondary_7">Sử dụng nút chụp trong menu nổi để chụp ảnh màn hình.</string>
+
+    <string name="message_tutorial_1_step_8">Khi ảnh chụp màn hình được chụp, bạn có thể cắt nó để chỉ lấy phần quan trọng cho việc phát hiện.</string>
+    <string name="message_tutorial_1_step_secondary_8">Nếu ảnh chụp màn hình của bạn không chứa nhân vật màu xanh, bạn có thể nhấn nút này để chụp lại.</string>
+
+    <string name="message_tutorial_1_step_9">Đối với trò chơi này, phần quan trọng là nhân vật màu xanh, vì vậy hãy cắt ảnh chụp màn hình của bạn để chỉ lấy anh ta.\n\nBạn có thể phóng to ảnh chụp màn hình bằng cử chỉ nhúm để có độ chính xác tốt hơn cho bộ chọn cắt.</string>
+    <string name="message_tutorial_1_step_secondary_9">Đảm bảo nhân vật hoàn chỉnh trong bộ chọn. Cũng cố gắng cắt càng gần anh ta càng tốt để dễ dàng phát hiện hình ảnh.</string>
+
+    <string name="message_tutorial_1_step_10">Hình ảnh Điều kiện của bạn bây giờ đã được ghi lại!\n\nCó một số điều chỉnh có thể thực hiện, nhưng cài đặt mặc định phù hợp với trường hợp sử dụng cơ bản của chúng ta. Vì mục tiêu của chúng ta không di chuyển, nó sẽ chỉ phát hiện ở vị trí chụp, nhanh hơn so với phát hiện trên toàn bộ màn hình.\n\nNhấp vào nút lưu để đăng ký và quay lại danh sách Điều kiện.</string>
+
+    <string name="message_tutorial_1_step_11">Đóng danh sách Điều kiện để quay lại cấu hình Sự kiện.</string>
+
+    <string name="message_tutorial_1_step_12">Với Điều kiện này, kịch bản biết khi nào kích hoạt Hành động.\n\nBây giờ bạn cần xác định Hành động nào để kích hoạt, vì vậy đối với trò chơi này, một cú nhấp vào nhân vật màu xanh.\n\nNhấp vào trường Hành động để hiển thị danh sách Hành động.</string>
+
+    <string name="message_tutorial_1_step_13">Một Hành động là thứ được thực hiện khi Điều kiện của Sự kiện của nó được hoàn thành.\n\nNó có thể là nhấp, vuốt, tạm dừng, Intent (tương tác với ứng dụng khác) hoặc thay đổi trong quá trình thực thi Kịch bản, và nhiều Hành động có thể được xác định cho cùng một Sự kiện.\n\nNhấp vào nút tạo Hành động để tạo Hành động đầu tiên.</string>
+
+    <string name="message_tutorial_1_step_14">Đầu tiên, chúng ta cần chọn loại cho Hành động của bạn.\n\nĐối với trò chơi này, chúng ta chỉ cần nhấp vào nhân vật màu xanh, vì vậy chọn Nhấp để tạo Hành động Nhấp mới.</string>
+
+    <string name="message_tutorial_1_step_15">Hành động Nhấp được xác định bởi vị trí và thời gian nhấn.\n\nVì chúng ta muốn nhấp nhanh nhất có thể, chúng ta có thể giữ thời gian nhấn mặc định là 1ms, đây là giá trị thấp nhất có thể. Vì vậy chúng ta chỉ cần xác định vị trí.\n\nNhấp vào nút chọn vị trí để chọn vị trí Hành động Nhấp.</string>
+
+    <string name="message_tutorial_1_step_16">Bạn cần chọn vị trí chính xác để được nhấp, vì vậy bạn cần bắt đầu trò chơi lại để hiển thị nhân vật màu xanh, sau đó chọn vị trí của nó.\n\nKhi vị trí đã đúng, nhấp vào nút xác nhận để lưu nó.</string>
+    <string name="message_tutorial_1_step_secondary_16">Bạn không thể tương tác với trò chơi khi bộ chọn vị trí hiển thị, nhưng bạn có thể sử dụng nút này để hiển thị và ẩn nó, cho phép bạn loại bỏ hạn chế đó theo ý muốn.</string>
+
+    <string name="message_tutorial_1_step_17">Nhấp hiện đã được cấu hình chính xác!\n\nNhấp vào nút lưu để đăng ký và quay lại danh sách Hành động.</string>
+
+    <string name="message_tutorial_1_step_18">Đóng danh sách Hành động để quay lại cấu hình Sự kiện.</string>
+
+    <string name="message_tutorial_1_step_19">Sự kiện của bạn hiện có Điều kiện và Hành động, có nghĩa là nó biết phải thực hiện gì và khi nào thực hiện.\n\nNhấp vào nút lưu để đăng ký và quay lại hộp thoại Kịch bản.</string>
+
+    <string name="message_tutorial_1_step_20">Yêu cầu duy nhất cho Kịch bản là phải có ít nhất một Sự kiện.\nVì Sự kiện của chúng ta đã bao gồm cách thắng trò chơi, chúng ta không cần gì khác.\n\nNhấp vào nút lưu để lưu Kịch bản vào cơ sở dữ liệu và đóng hộp thoại cấu hình.</string>
+
+    <string name="message_tutorial_1_step_21">Như bạn thấy, nút phát hiện tại đã khả dụng, có nghĩa là Kịch bản của bạn hợp lệ và có thể được sử dụng để phát hiện.\n\nNhấp vào nó để bắt đầu phát hiện.</string>
+
+    <string name="message_tutorial_1_step_22">Nó đang chạy nhưng không có gì xảy ra?\n\nĐó là bình thường, nó sẽ chỉ nhấp khi nhân vật màu xanh hiển thị, nhớ không? Trong khi giữ kịch bản đang chạy, nhấn nút bắt đầu trò chơi và chỉ cần xem Klick\'r đánh bại nó cho bạn!</string>
+
+    <string name="message_tutorial_1_step_23">Chúc mừng!\n\nBây giờ bạn đã biết những điều cơ bản về Klick\'r, nhưng không phải tất cả các trường hợp sử dụng sẽ đơn giản như trò chơi này.\nHãy xem hướng dẫn tiếp theo để học cách theo dõi mục tiêu di chuyển</string>
+
+
+    <!-- One moving target tutorial -->
+    <string name="item_title_tutorial_2">Nhấn vào mục tiêu di chuyển</string>
+    <string name="item_desc_tutorial_2">Thay đổi sự kiện để nhấp vào mục tiêu di chuyển ngẫu nhiên</string>
+    <string name="message_tutorial_2_game_instructions">Nhấp vào nút màu xanh đang di chuyển nhanh nhất có thể</string>
+
+    <string name="message_tutorial_2_step_1">Hãy làm trò chơi phức tạp hơn một chút. Bây giờ, mục tiêu di chuyển ngẫu nhiên.\n\nĐầu tiên, bắt đầu trò chơi và kiểm tra xem bạn có thể tự thắng không.</string>
+
+    <string name="message_tutorial_2_step_3">Một lần nữa, có vẻ không thể thắng bằng tay, vì vậy hãy sử dụng Smart AutoClicker.\n\nKịch bản của bạn cho hướng dẫn trước đã được giữ lại và tải cho hướng dẫn này, nhưng chúng ta sẽ cần thay đổi một vài tham số để thắng trò chơi mới này.\n\nNhấp vào biểu tượng cấu hình Kịch bản để bắt đầu cập nhật kịch bản mới của bạn.</string>
+
+    <string name="message_tutorial_2_step_4">Chúng ta vẫn muốn nhấp vào nhân vật màu xanh, có nghĩa là chúng ta vẫn chỉ cần một Điều kiện và một Hành động, vì vậy chỉ một Sự kiện.\n\nVì trường hợp sử dụng khá giống với trò chơi trước, chúng ta sẽ giữ Sự kiện của mình và chỉ cần cập nhật nó.\n\nNhấp vào sự kiện đã tạo trước đó của bạn để chỉnh sửa nó.</string>
+
+    <string name="message_tutorial_2_step_5">Trước tiên, chúng ta sẽ cập nhật Điều kiện phát hiện nhân vật màu xanh.\n\nNhấp vào trường Điều kiện để hiển thị danh sách Điều kiện.</string>
+
+    <string name="message_tutorial_2_step_6">Như trong hướng dẫn trước, chúng ta cần phát hiện nhân vật màu xanh, nhưng bây giờ nó đang di chuyển.\n\nĐiều kiện trước của chúng ta đã phát hiện nhân vật màu xanh, nhưng chỉ ở một vị trí. Vì vậy bạn không cần chụp ảnh màn hình mới, vì Điều kiện trước của bạn đã có nó, chúng ta chỉ cần thay đổi các tham số của nó.\n\nNhấp vào Điều kiện của bạn để bắt đầu chỉnh sửa nó.</string>
+
+    <string name="message_tutorial_2_step_7">Hiện tại, loại phát hiện Điều kiện được đặt thành \"Chính xác\", có nghĩa là nó sẽ chỉ được xác minh ở vị trí chụp của nó.\n\nĐể thắng trò chơi này, chúng ta cần xác minh cùng một Điều kiện, nhưng trên toàn bộ màn hình.\n\nChọn loại \"Toàn màn hình\" để phát hiện nhân vật màu xanh ở bất kỳ đâu trên màn hình.</string>
+    <string name="message_tutorial_2_step_secondary_7">Phát hiện trên toàn màn hình mất nhiều thời gian hơn vị trí chính xác, hãy nhớ điều đó khi thời gian thực thi Kịch bản của bạn quan trọng.</string>
+
+    <string name="message_tutorial_2_step_8">Đó là nó!\nChúng ta chỉ cần thay đổi loại phát hiện để Điều kiện của bạn phù hợp với nhu cầu của chúng ta.\n\nNhấp vào nút lưu để đăng ký và quay lại danh sách Điều kiện.</string>
+
+    <string name="message_tutorial_2_step_9">Đóng danh sách Điều kiện để quay lại cấu hình Sự kiện.</string>
+
+    <string name="message_tutorial_2_step_10">Hình ảnh Điều kiện của bạn hiện đã được cập nhật!\n\nTrong trạng thái này, kịch bản bây giờ sẽ thực hiện nhấp mỗi khi nhân vật màu xanh hiển thị ở bất kỳ đâu trên màn hình, nhưng cú nhấp này sẽ ở cùng một vị trí, vị trí đã chọn trong hướng dẫn trước. Vì vậy, chúng ta cần cập nhật Hành động của mình.\n\nNhấp vào trường Hành động để hiển thị danh sách Hành động.</string>
+
+    <string name="message_tutorial_2_step_11">Chúng ta vẫn muốn thực hiện một cú nhấp duy nhất, nhưng lần này, chúng ta muốn nhấp vào Điều kiện chứ không phải vị trí cố định.\n\nVì đây vẫn là một cú nhấp, chúng ta vẫn chỉ cần một Hành động, vì vậy hãy chỉnh sửa cú nhấp trước đó của bạn.\n\nNhấp vào Hành động của bạn để bắt đầu chỉnh sửa nó.</string>
+
+    <string name="message_tutorial_2_step_12">Hiện tại, \"Nhấp vào\" của Hành động Nhấp được đặt thành \"Vị trí đã chọn\", có nghĩa là bạn phải đặt vị trí được nhấp theo cách thủ công. Lựa chọn khác là \"Điều kiện\", có nghĩa là Hành động sẽ nhấp vào tọa độ Điều kiện được phát hiện.\n\nĐó chính xác là những gì chúng ta cần để đánh bại trò chơi. Mỗi khi nhân vật màu xanh được phát hiện, Hành động này sẽ nhấp vào nó.\n\nChọn nó để sử dụng trong Hành động của bạn.</string>
+
+    <string name="message_tutorial_2_step_13">Nhấp vào tùy chọn chọn Điều kiện để chọn điều kiện được phát hiện nào để nhấp vào.\nChúng ta cần chỉ định nó vì chúng ta có thể có nhiều Điều kiện trong Sự kiện của mình.</string>
+
+    <string name="message_tutorial_2_step_14">Đối với trường hợp sử dụng của chúng ta thì dễ dàng, chúng ta chỉ có một điều kiện, nhân vật màu xanh.\n\nChọn nó để nhấp vào Điều kiện này khi nó được phát hiện trên màn hình của bạn.</string>
+
+    <string name="message_tutorial_2_step_15">Đó là nó!\nHành động Nhấp của bạn hiện đã được cấu hình chính xác để đánh bại trò chơi.\n\nNhấp vào nút lưu để đăng ký và quay lại danh sách Hành động.</string>
+
+    <string name="message_tutorial_2_step_16">Đóng danh sách Hành động để quay lại cấu hình Sự kiện.</string>
+
+    <string name="message_tutorial_2_step_17">Bạn đã cập nhật Điều kiện và Hành động của mình, không còn gì phải làm nữa.\n\nNhấp vào nút lưu để đăng ký và quay lại hộp thoại Kịch bản.</string>
+
+    <string name="message_tutorial_2_step_18">Một lần lưu cuối cùng để đăng ký các thay đổi mới của bạn vào cơ sở dữ liệu và đóng hộp thoại cấu hình.</string>
+
+    <string name="message_tutorial_2_step_19">Kịch bản của bạn hiện đã được cấu hình để đánh bại hướng dẫn mới này.\n\nBắt đầu phát hiện bằng nút phát menu nổi và sau đó, bắt đầu trò chơi.</string>
+
+    <string name="message_tutorial_2_step_20">Chúc mừng!\n\nBây giờ bạn đã biết cách theo dõi mục tiêu tĩnh hoặc di chuyển đơn lẻ, nhưng còn nhiều thứ hơn nữa để học!</string>
+
+
+    <!-- Two still targets press when both are visible tutorial -->
+    <string name="item_title_tutorial_3">Kết hợp nhiều điều kiện</string>
+    <string name="item_desc_tutorial_3">Tạo và kết hợp nhiều điều kiện cho sự kiện của bạn</string>
+    <string name="message_tutorial_3_game_instructions">Nhấp vào nút màu xanh chỉ khi nút màu đỏ hiển thị</string>
+
+    <string name="message_tutorial_3_step_1">Hãy thay đổi quy tắc của trò chơi một lần nữa. Mục tiêu màu xanh đã ngừng di chuyển, nhưng bây giờ nó chỉ nên được nhấp khi mục tiêu màu đỏ hiển thị.\n\nĐầu tiên, bắt đầu trò chơi và kiểm tra xem bạn có thể tự thắng không.</string>
+
+    <string name="message_tutorial_3_step_3">Một lần nữa, có vẻ không thể thắng bằng tay, vì vậy hãy sử dụng Smart AutoClicker.\n\nKịch bản của bạn cho hướng dẫn trước đã được giữ lại và tải cho hướng dẫn này, nhưng chúng ta sẽ cần thay đổi một vài tham số để thắng trò chơi mới này.\n\nNhấp vào biểu tượng cấu hình Kịch bản để bắt đầu cập nhật kịch bản mới của bạn.</string>
+
+    <string name="message_tutorial_3_step_4">Chúng ta vẫn muốn nhấp vào mục tiêu màu xanh, nhưng chỉ khi mục tiêu màu đỏ hiển thị.\nVì vậy chúng ta cần thêm điều kiện cho mục tiêu màu đỏ này vào Sự kiện của chúng ta.\n\nNhấp vào sự kiện đã tạo trước đó của bạn để chỉnh sửa nó.</string>
+
+    <string name="message_tutorial_3_step_5">Chúng ta sẽ kết hợp nhiều điều kiện, vì vậy chúng ta cần kiểm tra toán tử Điều kiện cho sự kiện này.\n\nToán tử Điều kiện chỉ ra cách nhiều điều kiện sẽ được diễn giải cùng nhau.\n\'Một\' có nghĩa là chỉ một trong các Điều kiện cho Sự kiện này phải được hoàn thành để thực hiện Hành động.\n\n\'Tất cả\' có nghĩa là tất cả Điều kiện cho Sự kiện này phải được hoàn thành để thực hiện Hành động.\n\nVì chúng ta muốn phát hiện nếu hai thứ được hiển thị cùng nhau, chúng ta sẽ sử dụng \'Tất cả\'</string>
+
+    <string name="message_tutorial_3_step_6">Bây giờ chúng ta cần cập nhật Điều kiện của mình.\n\nNhấp vào trường Điều kiện để hiển thị danh sách Điều kiện.</string>
+
+    <string name="message_tutorial_3_step_7">Điều kiện trước của việc phát hiện mục tiêu màu xanh vẫn đúng, nhưng chúng ta cần một điều kiện mới cho mục tiêu màu đỏ.\n\nNhấp vào nút tạo Điều kiện để tạo Điều kiện mới cho nó.</string>
+
+    <string name="message_tutorial_3_step_8">Giống như cho mục tiêu màu xanh, bắt đầu trò chơi để hiển thị mục tiêu màu đỏ. Khi nó hiển thị, chụp ảnh màn hình của nó!</string>
+    <string name="message_tutorial_3_step_secondary_8">Sử dụng nút chụp trong menu nổi để chụp ảnh màn hình.</string>
+
+    <string name="message_tutorial_3_step_9">Ảnh chụp màn hình của bạn có chứa mục tiêu màu đỏ không? Bạn có thể cắt nó để chỉ lấy phần quan trọng cho việc phát hiện, mục tiêu màu đỏ.</string>
+    <string name="message_tutorial_3_step_secondary_9">Nếu ảnh chụp màn hình của bạn không chứa mục tiêu màu đỏ, bạn có thể nhấn nút này để chụp lại.</string>
+
+    <string name="message_tutorial_3_step_10">Hình ảnh Điều kiện của bạn hiện đã được ghi lại!\n\nVì mục tiêu màu đỏ không di chuyển, chúng ta có thể giữ cấu hình mặc định.\nNhấp vào nút lưu để đăng ký và quay lại danh sách Điều kiện.</string>
+
+    <string name="message_tutorial_3_step_11">Đóng danh sách Điều kiện để quay lại cấu hình Sự kiện.</string>
+
+    <string name="message_tutorial_3_step_12">Bây giờ chúng ta có hai Điều kiện, một cho mỗi mục tiêu, và Hành động sẽ chỉ được thực hiện nếu cả hai đều được phát hiện.\n\nNhấp vào trường Hành động để hiển thị danh sách Hành động cho Sự kiện của chúng ta.</string>
+
+    <string name="message_tutorial_3_step_13">Hành động đã được đặt để nhấp vào nhân vật màu xanh, và nó sẽ chỉ được thực hiện khi cả nhân vật màu xanh và màu đỏ hiển thị cùng nhau.\n\nĐây chính xác là hành vi chúng ta cần để đánh bại trò chơi, vì vậy không cần chỉnh sửa Hành động nhấp của chúng ta.\n\nĐóng danh sách Hành động để quay lại cấu hình Sự kiện.</string>
+
+    <string name="message_tutorial_3_step_14">Nhấp vào nút lưu để lưu Sự kiện của bạn.</string>
+
+    <string name="message_tutorial_3_step_15">Tất cả các thay đổi phải được lưu trong kịch bản của bạn để được đăng ký.\nNhấp vào nút lưu để lưu các thay đổi của bạn.</string>
+
+    <string name="message_tutorial_3_step_16">Chúng ta đã sẵn sàng để thắng trò chơi này!\n\nNhấp vào nút bắt đầu để bắt đầu phát hiện và sau đó, bắt đầu trò chơi.</string>
+
+    <string name="message_tutorial_3_step_17">Chúc mừng!\n\nBây giờ bạn đã biết cách kết hợp nhiều Điều kiện cho một Sự kiện, nhưng còn nhiều thứ hơn nữa để học!</string>
+
+    <!-- Two still targets press when only one is visible tutorial -->
+    <string name="item_title_tutorial_4">Điều kiện phủ định</string>
+    <string name="item_desc_tutorial_4">Xác minh rằng một cái gì đó không được hiển thị trước khi thực hiện hành động</string>
+
+
+    <!-- Two moving targets press in order tutorial -->
+    <string name="item_title_tutorial_5">Kịch bản nhiều sự kiện</string>
+    <string name="item_desc_tutorial_5">Học cách kết hợp nhiều sự kiện để đạt được tự động hóa phức tạp</string>
+
+</resources>

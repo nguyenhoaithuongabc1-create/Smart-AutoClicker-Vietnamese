@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2024 Kevin Buzeau
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="dialog_title_permission_issue">Khắc phục sự cố</string>
+    <string name="message_accessibility_issues">Có vẻ như quyền dịch vụ trợ năng đã bị xóa nhiều lần. Nếu bạn không tự thay đổi, điều này có nghĩa là thiết bị của bạn đã xóa nó.\n\nMột số nhà sản xuất thiết bị Android không tôn trọng hành vi tiêu chuẩn về các ứng dụng chạy nền, và tùy thuộc vào thương hiệu thiết bị của bạn, bạn có thể cần thực hiện cấu hình bổ sung.\n\nVui lòng tham khảo trang web sau để tìm thêm thông tin về vấn đề này và cách bạn có thể cải thiện sự ổn định của quyền.</string>
+    <string name="button_open_dont_kill_my_app" translatable="false">Don\'t kill my app</string>
+
+</resources>
